@@ -61,3 +61,7 @@ def extractPackageNameFromGrammerFile(File grammarFile) {
     }
     return grammarPackage
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}
